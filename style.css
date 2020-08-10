@@ -1,0 +1,193 @@
+body {
+  box-sizing: border-box;
+  color: #1c1e21;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, '.SFNSText-Regular', sans-serif;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.top-bar {
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  display: flex;
+  justify-content: center;
+  min-height: 42px;
+}
+
+.top-bar .container {
+  align-items: center;
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.top-bar .container .text-header {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 1px;
+}
+
+.top-bar .container .facebook-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.top-bar .container .facebook-logo img {
+  width: 204px;
+}
+
+.top-bar .container .login-containers {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  line-height: 18px;
+}
+
+.top-bar .user-container {
+  align-self: baseline;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4px;
+}
+
+
+.top-bar .password-container {
+  padding: 0 14px;
+}
+
+.top-bar .login-containers .input-login {
+  border: 1px solid #ccd0d5;
+  border-color: #1d2a5b;
+  margin: 0;
+  padding: 3px;
+  width: 142px;
+}
+
+/* o conteúdo do botão entrar */
+.top-bar .container .button-login {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 1px;
+  margin-left: 4px;
+}
+
+.top-bar .button-login .log-in {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  padding: 2px 0.5px;
+  text-align: center;
+}
+
+/* Conteúdo da página */
+.facebook-body {
+  background-image: linear-gradient(white, #d3d8e8);
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.facebook-body .fb-content {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook-body .fb-content .img-text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook-body .fb-content .text-content {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  max-width: 450px;
+  word-spacing: -1px;
+}
+
+/* formulário */
+.facebook-body .fb-content .content-fill {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.content-fill .form-fill {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-fill .form-fill .title-form {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.content-fill .form-fill .field-set {
+  border: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content-fill .form-fill .title-fill {
+  color: #1d2129;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.content-fill .form-fill .field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.content-fill .form-fill .field-group {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.field-group .field + .field {
+  margin-left: 14px;
+}
+
+.content-fill .form-fill .input-box {
+  background-color: white;
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  color: #1c1e21;
+  font-size: 18px;
+  padding: 8px 10px;
+}
+
+/* Data */
+.content-fill .date-box .title-date , .title-genero {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  padding: 0;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook - entre e cadastre-se</title>
+</head>
+<body>
+  <header class="top-bar">
+    <nav class="container">
+      <section class="facebook-logo">
+        <a class="linkItem" href="https://www.facebook.com/">
+          <img src="./face-logo.svg" alt="Logomarca">
+        </a>
+      </section>
+      <section class="login-containers">
+        <!-- user container -->
+        <section class="user-container">
+          <label for="user-email-phone"><h3 id="user-email-phone-label" class="text-header">Email ou telefone</h3></label>
+          <input type="text" class="input-login" id="user-email-phone">
+        </section>
+        <!-- password container -->
+        <section class="password-container">
+          <label for="user-password"><h3 class="text-header">Senha</h3></label>
+          <input type="password" class="input-login" id="user-password">
+          <a class="linkItem" href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">
+            <h3 class="text-header">Esqueceu a conta?</h3>
+          </a>
+        </section>
+        <button type="submit" id="button-login" class="button-login"><h6 class="log-in">Entrar</h6></button>
+      </section>
+    </nav>
+  </header>
+  <!-- Corpo do página -->
+  <section class="facebook-body">
+    <section class="fb-content">
+      <!-- Propaganda -->
+      <section class="img-text-content">
+        <p class="text-content">
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas
+          que fazem parte da sua vida.
+        </p>
+        <div class="img-content">
+          <img id="facebook-networking" src="networking.png" alt="imagem representando um network">
+        </div>
+      </section>
+      <!-- Formulário -->
+      <section class="content-fill">
+        <form action="" class="form-fill">
+          <h2 class="title-form">Abra uma conta</h2>
+          <fieldset class="field-set">
+            <legend class="title-fill">É rápido e fácil.</legend>
+            <!-- Nome e Sobrenome -->
+            <div class="field-group">
+              <div class="field">
+                <input type="text" class="input-box" name="name-box" placeholder="Nome" required>
+              </div>
+              <div class="field">
+                <input type="text" class="input-box" name="last-name-box" placeholder="Sobrenome" required>
+              </div>
+            </div>
+              <!-- Email e Password -->
+            <div class="field">
+              <input type="text" class="input-box" name="email-box" placeholder="Celular ou email" required>
+            </div>
+            <div class="field">
+              <input type="password" class="input-box" name="password-box" placeholder="Nova senha" required>
+            </div>
+          </fieldset>
+          <!-- Data -->
+          <section class="date-box">
+            <h2 class="title-date">Data de nascimento</h2>
+            <input type="date" class="input-box" placeholder="dd/mm/aaaa">
+          </section>
+          <!-- Gênero -->
+          <section>
+            <h2 class="title-genero">Gênero</h2>
+            <div class="radio-box">
+              <label for="feminino">
+                <input type="radio" id="feminino" name="Feminino">
+                Feminino
+              </label>
+              <label for="masculino">
+                <input type="radio" id="masculino" name="Masculino">
+                Masculino
+              </label>
+              <label for="personalizado">
+                <input type="radio" id="personalizado" name="Personalizado">
+                Personalizado
+              </label>
+            </div>
+          </section>
+          <!-- Cadastro -->
+          <button type="submit" id="facebook-register">Cadastre-se</button>
+        </form>
+      </section>
+    </section>
+  </section>
+  <!-- Rodapé -->
+  <footer>
+    teste
+  </footer>
+</body>
+</html>
